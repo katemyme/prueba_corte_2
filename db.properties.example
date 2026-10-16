@@ -1,0 +1,13 @@
+# Configuración de ejemplo de la conexión a PostgreSQL (SIN secretos).
+#
+# 1. Copie este archivo como "db.properties" en esta misma carpeta.
+# 2. Cambie los valores por los de su instalación.
+#
+# db.properties está excluido en .gitignore: nunca suba la configuración real.
+#
+# Alternativa: definir las variables de entorno DB_URL, DB_USER y DB_PASSWORD,
+# que tienen prioridad sobre este archivo.
+
+db.url=jdbc:postgresql://localhost:5432/papeleria_campus
+db.user=postgres
+db.password=CAMBIAR_POR_SU_CONTRASENA
