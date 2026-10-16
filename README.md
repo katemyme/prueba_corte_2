@@ -157,3 +157,4 @@ productos-view.fxml → Producto_Controller → ProductoDAO → database_connect
 ## Pruebas
 
 La matriz de resultados está en [`pruebas.md`](pruebas.md) y las capturas en [`evidencias/`](evidencias/).
+Esto fue lo ultimo trabajado el dia jueves 15 de octubre del 2026
