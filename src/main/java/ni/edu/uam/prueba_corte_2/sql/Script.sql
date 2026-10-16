@@ -1,10 +1,10 @@
 -- Crear la base de de datos llamada papeleria_campus segun lo indicado en el pdf
-CREATE DATABASE papeleria_campus
+CREATE DATABASE papeleria_campus;
 -- antes de creer las tablas definimos el esquema donde se guardaran las tablas
 CREATE SCHEMA catalogos;
 --creacion de la tabla productos
 CREATE TABLE catalogos.producto (
-id_productos SERIAL PRIMARY KEY,
+id_producto SERIAL PRIMARY KEY,
 codigo      VARCHAR(10)   NOT NULL UNIQUE,
 nombre      VARCHAR(80)   NOT NULL,
 categoria   VARCHAR(20)   NOT NULL,

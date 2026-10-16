@@ -20,6 +20,9 @@
                     <ColumnConstraints prefWidth="180" />
                 </columnConstraints>
 
+                <Label text="ID:" GridPane.rowIndex="0" />
+                <TextField fx:id="txtId" editable="false" focusTraversable="false" promptText="Automático" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
                 <Label text="Código:" GridPane.rowIndex="1" />
                 <TextField fx:id="txtCodigo" promptText="Ej. P001" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
